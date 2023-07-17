@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "B204D438-073F-4B7E-8581-5BB3880155C5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SwiftUIDemo1.xcodeproj",
+      "identifier" : "22FF195E28CB18650023E8CA",
+      "name" : "SwiftUIDemo1"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SwiftUIDemo1.xcodeproj",
+        "identifier" : "22FF196E28CB18690023E8CA",
+        "name" : "SwiftUIDemo1Tests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SwiftUIDemo1.xcodeproj",
+        "identifier" : "22FF197828CB18690023E8CA",
+        "name" : "SwiftUIDemo1UITests"
+      }
+    }
+  ],
+  "version" : 1
+}
