@@ -15,9 +15,7 @@ struct ContentView: View {
 
       VStack(spacing: 50) {
         Text("My name is \(name)").font(.system(size: 15))
-          //.frame(width: 320)
           .foregroundColor(.black)
-          //.background(.gray)
 
         LoginForm(name: $name)
 
