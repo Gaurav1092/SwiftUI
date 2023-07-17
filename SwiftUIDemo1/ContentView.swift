@@ -52,16 +52,13 @@ struct LoginForm: View {
 
     TextField("Name", text: $name,
               onEditingChanged: { (isBegin) in
-      print("editing start")
     },
               onCommit: {
-      print("onCommit")
     }
     )
     .textFieldStyle(.roundedBorder)
 
     Button {
-      print("Login button tapped")
 
     } label: {
       Text("Login").font(.system(size: 22))
