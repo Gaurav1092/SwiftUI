@@ -22,7 +22,6 @@ struct ProductListView: View {
           Button("Add") {
             viewModel.addUser()
           }
-          //.padding()
         }
 
 
@@ -33,11 +32,9 @@ struct ProductListView: View {
 
               HStack(spacing: 10) {
                 Image("Plus")
-                //.resizable()
 
                 VStack(alignment: .leading, spacing: 10) {
                   Text(user.name)
-                  // .frame(width: 280)
                     .frame(maxWidth: .infinity, alignment: .leading)
                   Text("\(user.userDescription)")
                 }
