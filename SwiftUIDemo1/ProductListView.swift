@@ -59,7 +59,7 @@ struct ProductListView: View {
 
 struct ProductListView_Previews: PreviewProvider {
     static var previews: some View {
-      let user = User(name: "Test2 Scroll view has a parameter to change the scroll direction from the default vertical scrolling to horizontal. We also have to use a horizontal", userId: 1, profileImage: "", isPrimeUser: BoolFromStringWrapper(value: "false"), userDescription: "Scroll view has a parameter to change the scroll direction from the default vertical scrolling to horizontal. We also have to use a horizontal stack inside the ScrollView otherwise the layout directions don't match. You could use LazyHStack or LazyHGrid.")
+      let user = User(name: "Test21 Scroll view has a parameter to change the scroll direction from the default vertical scrolling to horizontal. We also have to use a horizontal", userId: 1, profileImage: "", isPrimeUser: BoolFromStringWrapper(value: "false"), userDescription: "Scroll view has a parameter to change the scroll direction from the default vertical scrolling to horizontal. We also have to use a horizontal stack inside the ScrollView otherwise the layout directions don't match. You could use LazyHStack or LazyHGrid.")
       let user1 = User(name: "Test1", userId: 2, profileImage: "", isPrimeUser: BoolFromStringWrapper(value: "false"), userDescription: "Scroll view has a parameter to change the scroll direction from the default vertical scrolling to horizontal. We also have to use a horizontal stack inside the ScrollView otherwise the layout directions don't match. You could use LazyHStack or LazyHGrid.")
 
       ProductListView(viewModel: ProductListViewModel(userList: [user, user1]))
