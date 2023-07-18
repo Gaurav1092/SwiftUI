@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222246A02A667AF200F96255 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222469F2A667AF200F96255 /* AsyncImage.swift */; };
 		22CB2D392A4DF02300C8506B /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB2D382A4DF02300C8506B /* ProductListView.swift */; };
 		22CB2D3B2A4DF04800C8506B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB2D3A2A4DF04800C8506B /* User.swift */; };
 		22CB2D3D2A4DF61D00C8506B /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB2D3C2A4DF61D00C8506B /* ProductListViewModel.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2222469F2A667AF200F96255 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		22CB2D382A4DF02300C8506B /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		22CB2D3A2A4DF04800C8506B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		22CB2D3C2A4DF61D00C8506B /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				22CB2D3C2A4DF61D00C8506B /* ProductListViewModel.swift */,
 				22CB2D3E2A503D8100C8506B /* APIManager.swift */,
 				22CB2D3A2A4DF04800C8506B /* User.swift */,
+				2222469F2A667AF200F96255 /* AsyncImage.swift */,
 				22FF196628CB18690023E8CA /* Assets.xcassets */,
 				22FF196828CB18690023E8CA /* Preview Content */,
 			);
@@ -281,6 +284,7 @@
 				22FF198D28CB617D0023E8CA /* SwiftUIViewDemo.swift in Sources */,
 				22CB2D3D2A4DF61D00C8506B /* ProductListViewModel.swift in Sources */,
 				22FF196528CB18650023E8CA /* ContentView.swift in Sources */,
+				222246A02A667AF200F96255 /* AsyncImage.swift in Sources */,
 				22CB2D3B2A4DF04800C8506B /* User.swift in Sources */,
 				22FF196328CB18650023E8CA /* SwiftUIDemo1App.swift in Sources */,
 				22CB2D3F2A503D8100C8506B /* APIManager.swift in Sources */,
