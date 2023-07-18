@@ -3,7 +3,7 @@
 //  SwiftUIDemo1
 //
 //  Created by Guddu Gourav on 6/29/23.
-//
+//Desc: Created a property wrapper to covert string to Bool
 
 import Foundation
 struct User {
